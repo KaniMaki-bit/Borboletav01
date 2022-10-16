@@ -141,7 +141,7 @@ class MainActivity : AppCompatActivity(),CardStackListener {
     private fun createCards(): List<card> {
         val cards = ArrayList<card>()
         cards.add( card(
-            name = "Professional 1", role = "Asesor", description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            name = getString(R.string.app_name), role = "Asesor", description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             image = ResourcesCompat.getDrawable(resources, R.drawable.ejemplo1, null)!!
         ))
         cards.add( card(
